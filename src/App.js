@@ -1,6 +1,10 @@
-const App = (props) => {
+import {Contacts} from "./pages/Contacts";
+
+const App = () => {
   return (
-      <h1>hello</h1>
+      <div className='wrapper'>
+        <Contacts />
+      </div>
   )
 }
 
